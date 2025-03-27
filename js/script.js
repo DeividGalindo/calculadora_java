@@ -57,3 +57,7 @@ console.log(resultado);
 resultado = calc.multiplication(2,2)
 console.log(resultado)
 
+for (let i=0; buttons.length > i; i++){
+    buttons[i].addEventListener('click',calc.btnPress);
+}
+
